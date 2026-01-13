@@ -58,5 +58,6 @@ In this case, the function may not be working properly because the scorer doesnÂ
 | Logic of multiple steps: The first step is a nearly perfect match (threshold of  ~95 with **fuzz.ratio**), then, for the remaining observations a more flexible fuzzy matching |
 | A custom scorer, that combines multiple metrics such as the length of the string, verification of the first token, plus the fuzzywuzzy scorers |
 
+The result is a dabaset with 70% of accuracy, which needed just a few hours to finish adjusting and cleaning, furthermore, the company was able to complete the analysis without needing to complete a data cleaning beforehand each time they needed.
 
 All of the process above and the code is in the repository.
